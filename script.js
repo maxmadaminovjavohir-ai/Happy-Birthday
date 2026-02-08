@@ -58,7 +58,7 @@ function transitionToPage2() {
 
         // Start Typewriter after a slight delay
         setTimeout(() => {
-            typeWriter(greetingText, 'greeting-text', 1); // 50ms per char
+            typeWriter(greetingText, 'greeting-text', 35); // 50ms per char
         }, 1000);
     }, 1500); // 1.5s matches transition time
 }
@@ -434,3 +434,4 @@ function launchFireworks() {
         confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
     }, 250);
 }
+
